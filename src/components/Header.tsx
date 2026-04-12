@@ -6,10 +6,9 @@ const Header: React.FC = () => {
   return (
     <nav style={{ display: "flex", gap: "20px" }}>
       <Link to="/">Login</Link>
-
-      {userId && <Link to={`/user/${userId}`}>Dashboard</Link>}
-
+      {/* {userId && <Link to={`/user/${userId}`}>Dashboard</Link>} */}
       {userId && <Link to="/create">Write Article</Link>}
+      <Link to="/create">Write Article</Link>
     </nav>
   );
 };
