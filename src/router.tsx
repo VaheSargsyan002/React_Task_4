@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
 
 export const router = createBrowserRouter([
   {
-    element: <Layout />, // ✅ shared layout
+    element: <Layout />,
     children: [
       {
         path: "/",
